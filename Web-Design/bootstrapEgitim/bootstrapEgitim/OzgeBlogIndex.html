@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <!--jscript adresleri önce olmalı yüklenmesi  için-->
+    <!--sayfaların slider gibi hareket etmesini nerveslider sağlar-->
+
+    <title>ozgekulekci</title>
+    <link href="magic-master/magic.min.css" rel="stylesheet" />
+    <link href="nerveslider/nerveslider.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="OzgeBlogCss.css" rel="stylesheet" />
+    <script src="OzgeBlogJs.js"></script>
+    <link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet" />
+    <link href="FONT/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.12.4.min.js"></script>
+    <script src="Scripts/jquery-ui-1.12.1.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="nerveslider/nerveslider.min.js"></script>
+    <script src="lightbox2-master/dist/js/lightbox.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+
+    <div class="leftPanel">
+
+        <ul>
+            <li><a id="subMenuButton" href="#menu" class=" fa fa-bars active "></a></li>
+            <li><a class=" fa fa-home " id="ev" data-toggle="tooltip" data-placement="right" title="Hooray!"></a></li>
+            <li><a class="fa fa-user" id="hakkimda" data-toggle="tooltip" data-placement="right" title="Hooray!"></a></li>
+            <li><a class="fa fa-graduation-cap" id="egitim" data-toggle="tooltip" data-placement="right" title="Hooray!"></a></li>
+            <li><a class="fa fa-briefcase" id="is" data-toggle="tooltip" data-placement="right" title="Hooray!"></a></li>
+            <li><a class="fa fa-send" id="iletisim" data-toggle="tooltip" data-placement="right" title="Hooray!"></a></li>
+        </ul>
+        <div id="subMenuContainer" class="subMenu">
+            <div class="subListMenu">
+                <div class="subList">
+                    <h3>SUBMENU</h3>
+                    <div class="border1"></div>
+                    <div class="drpdown">
+                        <a href="#" data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
+                            Submenu 1 <span class="caret pull-right"></span>
+                        </a>
+                    </div>
+                    <div class="collapse" id="toggleDemo" style="height: 0px;">
+                        <ul class="nav nav-list">
+                            <li><a href="#">Submenu1.1</a></li>
+                            <li><a href="#">Submenu1.2</a></li>
+                            <li><a href="#">Submenu1.3</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rightPanel">
+        <div class="indexContainer">
+            <div class="col-md-6 splittedPanel left">
+                <div class="leftSlider">
+                    <!--home-->
+                    <div class="ImageTest">
+                        <div class="homeTitleLeft">
+                            <h1 class="firstHeader">ÖZGE</h1>
+                        </div>
+                    </div>
+                    <!--hakkında-->
+                    <div class="image"></div>
+
+                    <!--is-->
+                    <div class="image"></div>
+
+                    <!--egitim-->
+                    <div class="image"></div>
+
+                    <!--iletisim-->
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            console.log("initmap");
+                            var location = { lat: 40.765441, lng: 29.940809 };
+                            var map = new google.maps.Map(document.getElementById("map"), { zoom: 4, center: location });
+                            var marker = new google.maps.Marker({ position: location, map: map });
+                        }
+                    </script>
+                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtuxIoRgS5SlZJPEdqFoqwGHI98vcw6XI&callback=initMap"></script>
+
+                </div>
+            </div>
+            <div class="col-md-6 splittedPanel right">
+                <div class="rightSlider">
+                    <div class="ImageTest">
+                        <div class="row">
+                            <div class="homeTitleRight">
+                                <h1 class="firstHeader">KÜLEKCİ</h1>
+                            </div>
+                        </div>
+                        <div class="homeTitleBotton">
+                            <div class="row">
+                                <h3>Web Designer & Developer</h3>
+                            </div>
+                        </div>
+                        <div class="social-tablo">
+                            <nav class="social-menu">
+                                <ul>
+                                    <li><a href="#" class="fa fa-facebook-f" style=" margin-left: -17px"></a></li>
+                                    <li><a href="#" class=" fa fa-twitter" style="margin-left:19px"></a></li>
+                                    <li><a href="#" class="fa fa-google-plus" style="margin-left:19px"></a></li>
+                                    <li><a href="#" class="fa fa-linkedin" style="margin-left:19px"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="about">
+                            <h1 class="secondHeader">HAKKIMDA</h1>
+                            <div class="border"></div>
+                            <div class="aboutTable">
+                                <ul class="cv-list">
+                                    <li>
+                                        <i class="satir fa fa-user"></i> Doğum günü
+                                        <div class="cv"> 8 Mayıs 1996 </div>
+                                    </li>
+                                    <hr class="hr-in" />
+                                    <li>
+                                        <i class="satir fa fa-language"></i>Diller
+                                        <div class="cv">Türkçe,İngilizce</div>
+                                    </li>
+                                    <hr class="hr-in" />
+                                    <li>
+                                        <i class="satir fa fa-music"></i>Hobiler
+                                        <div class="cv">Korist</div>
+                                    </li>
+                                    <hr class="hr-in" />
+                                    <li>
+                                        <i class="satir fa fa-external-link"></i>WebSite
+                                        <div class="cv">www.ozgekulekci.com</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="aboutPanel">
+                                8 Mayıs 1996 yılında Kocaeli İzmit'te doğdum.İlkokul ve ortaokulu Türk Pirelli
+                                 İlköğretim okulunda ,ardından liseyi ise Şehit Özcan Kan Anadolu Öğretmen lisesinde 
+                                okudum.Sakarya Üniversitesi Bilgisayar Mühendisliği bölümünde halen devam etmekte olan 
+                                lisans eğitimimi tamamlamaktayım.Bu yıllarda tanıştığım Sakarya Üniversitesi Çok Sesli Korosunun
+                                 da bir üyesiyim.
+                            </div>
+                            <br />
+                            <br />
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="education">
+                            <h1 class="secondHeader">DENEYİMLER</h1>
+                            <div class="border"></div>
+                            <div class="block1 ">
+                                <div class="header1">
+                                    <h3>Bimser Çözüm Danışmanlık</h3>
+                                    <hr class="hr-in" />
+                                </div>
+                                <div class="block-about">
+                                    2017 yılında zorunlu yazılım stajımı 20 iş günü boyunca yapmış bulunmaktayım.
+                                </div>
+                            </div>
+                            <div class="block1 ">
+                                <div class="header1">
+                                    <h3>Ahmet Elginkan Mesleki Ve Teknik Eğitim Merkezi</h3>
+                                    <hr class="hr-in" />
+                                </div>
+                                <div class="block-about">
+                                    <ul class="egitim-tablo">
+                                        <li>Nesneye Dayalı Programlama - C# Geliştirme ve Uyum Eğitimi</li>
+                                        <li>Nesneye Dayalı Programlama - Java Geliştirme ve Uyum Eğitimi</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr class="hr-out" />
+
+                            <h1 class="secondHeader">EĞİTİM</h1>
+                            <div class="border"></div>
+                            <div class="block1 ">
+                                <div class="header1">
+                                    <h3>
+                                        Sakarya Üniversitesi
+                                    </h3>
+                                    <p>2015-2019</p>
+                                    <hr class="hr-in" />
+                                </div>
+                                <div class="block-about">
+                                    <p>2015 yılında Sakarya Üniversitesi Bilgisayar Mühendisliği bölümüne başladım halen devam etmekteyim.</p>
+                                </div>
+                            </div>
+                            <hr class="hr-out" />
+                            <h1 class="secondHeader">BECERİLER</h1>
+                            <div class="border"></div>
+                            <div class="block1 ">
+                                <div class="container">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar- active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                            <span>HTML</span>
+                                        </div>
+                                        <div class="yuzde">%70</div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar- active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                            <span>CSS</span>
+                                        </div>
+                                        <div class="yuzde">%70</div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar- active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                            <span>BOOTSTRAP</span>
+                                        </div>
+                                        <div class="yuzde">%50</div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar- active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                            <span>C#</span>
+                                        </div>
+                                        <div class="yuzde">%40</div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="progress">
+                                        <div class="progress-bar progress-bar- active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                            <span>C++</span>
+                                        </div>
+                                        <div class="yuzde">%40</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="portfolio">
+                            <h1 class="secondHeader">ARŞİV</h1>
+                            <div class="border"></div>
+                            <ul id="cv-portfolio-filter" class="cvfilters">
+                                <li class="gridactive">Tanıtım</li>
+                                <li>Sansev</li>
+                                <li>Konser</li>
+                            </ul>
+                            <ul class="category">
+                                <li class="video1">
+                                    <video width="270" height="240" controls="controls">
+                                        <source src="arsiv/tan%c4%b1t%c4%b1m.mp4" type="video/mp4" />
+                                    </video>
+                                </li>
+                                <li class="resim1">
+                                    <a href="arsiv/16806638_1202313623178907_4820018945997649621_n.jpg" data-lightbox="image-1" data-title="Konser">
+
+                                        <img width="250" height="300" src="arsiv/16806638_1202313623178907_4820018945997649621_n.jpg" />
+                                    </a>
+                                </li>
+                                <li class="resim2">
+                                    <a href="arsiv/18222368_1275026535907615_7697633198197779004_n.jpg" data-lightbox="image-1" data-title="Konser">
+
+                                        <img width="270" height="300" src="arsiv/18222368_1275026535907615_7697633198197779004_n.jpg" />
+                                    </a>
+                                </li>
+                                <li class="video2">
+                                    <video width="250" height="240" controls="controls">
+                                        <source src="arsiv/Ak%20Koyun%20-%20Ahmed%20Adnan%20Saygun.mp4" type="video/mp4" />
+                                    </video>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="slide2">
+                        <div class="about">
+                            <h1 class="secondHeader">İLETİŞİM</h1>
+                            <div class="border"></div>
+                            <ul class="contact-table">
+                                <li>
+                                    <div class="contact-table-left"><i class="contact-icon fa fa-phone-square"></i>Telefon</div>
+                                    <div class="contact-table-right">234-435-4345</div>
+                                </li>
+                                <li>
+                                    <div class="contact-table-left"><i class="contact-icon  fa fa-envelope"></i>E-mail</div>
+                                    <div class="contact-table-right"><a href="#">r.kulekci.41@gmail.com</a></div>
+                                </li>
+                                <li>
+                                    <div class="contact-table-left"><i class="contact-icon fa fa-map"></i>Adres</div>
+                                    <div class="contact-table-right">Kocaeli Başiskele</div>
+                                </li>
+                            </ul>
+                            <hr class="hr-out" />
+                            <h1 class="secondHeader">MESAJINI İLET</h1>
+                            <div class="border"></div>
+                            <div class="aboutPanel">Aşağıdaki formu kullanarak bana ulaşabilirsiniz.En kısa sürede dönüş yapılacaktır.</div>
+                            <form>
+                                <label for="fname">Ad:</label><br />
+                                <input type="text" id="fname" name="fname" required="required"><br />
+                                <label for="lname">Soyad:</label><br />
+                                <input type="text" id="lname" name="lname" required="required"><br />
+                                <label for="numara">Telefon Numarası:</label><br />
+                                <input type="text" id="numara" name="numara" required="required"><br />
+                                <label for="email">Email Adresi:</label><br />
+                                <input type="text" id="email" name="email" required="required"><br />
+                                <label for="Message">Message :</label><br />
+                                <textarea name="message" id="Message" required="required"></textarea><br />
+                                <input type="submit" class="gonder" value="GÖNDER">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $(".leftSlider").nerveSlider({
+                sliderWidth: "100%",
+                sliderHeight: "100%",
+                sliderResizable: true,
+                sliderAutoPlay: false,
+                showArrows: false,
+                showDots: false,
+                slideTransitionDirection: "down"
+            });
+            $(".rightSlider").nerveSlider({
+                sliderWidth: "100%",
+                sliderHeight: "100%",
+                sliderResizable: true,
+                sliderAutoPlay: false,
+                showArrows: false,
+                showDots: false,
+                slideTransitionDirection: "up"
+            });
+            $("#ev").on("click", function () {
+
+                $(".leftSlider").gotoSlide(1);
+                $(".rightSlider").gotoSlide(1);
+            });
+            $("#hakkimda").click(function () {
+
+                $(".leftSlider").gotoSlide(2);
+                $(".rightSlider").gotoSlide(2);
+            });
+            $("#egitim").click(function () {
+
+                $(".leftSlider").gotoSlide(3);
+                $(".rightSlider").gotoSlide(3);
+            });
+            $("#is").click(function () {
+
+                $(".leftSlider").gotoSlide(4);
+                $(".rightSlider").gotoSlide(4);
+            });
+            $("#iletisim").click(function () {
+
+                $(".leftSlider").gotoSlide(5);
+                $(".rightSlider").gotoSlide(5);
+            });
+            $("#subMenuButton").click(function () {
+                $("#subMenuContainer").toggleClass("opened");
+            });
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+</html>

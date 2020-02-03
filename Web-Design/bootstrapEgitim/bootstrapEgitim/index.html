@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+    <link href="FONT/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+
+
+    <header class="navbar navbar-inverse  navbar-fixed-top   ">
+        <!--navbar-fixed-top menüyü sayfada sabitler-->
+        <!--default renginin defofult oldugunu belirtirdefault yerine inverse dersek rengin tam zıttını yazar -->
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <!--responsive özelliğiniçalıştırırı küçüldükçe menü bibutondan liste şeklinde ekrana gelir-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="padding:0px" href="#">
+
+                    <img src="images/bimser_logo_en.png" alt=" bimser" title="bimser " width="50px" height="50px" class=" img-circle" />
+
+                </a>
+            </div>
+            <span class="text-info logo-yani-yazi hidden-xs">
+                <!--hidden-xs ile akıllı telefolarda o boyuttayken yazım kaybolsun demektir-->
+                <strong>Ozge Kulekci</strong>
+
+            </span>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="#">Hakkımda</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dersler <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li> <!--araya çizgi çeker-->
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">galeri</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">iletişim</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li>
+                        <a href="#">
+
+                            <img src="images/bimser_logo_en.png" width="25px" height="25px" title="english" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/bimser_logo_en.png" width="25px" height="25px" title="turkce" />
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="padding-top:10px">
+                    <li>
+                        <button type="button" class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-envelope">Warning</button>
+
+                    </li>
+
+
+                    <li>
+                        <button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-print">Danger</button>
+
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="row" style="background-color:black ; margin-top:76px  ">
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="1500" data-ride="carousel">
+                <!--   data-interval="1500" belirli saniyede resimlerin degismesini saglar-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="d-block img-fluid" src="images/bimser_logo_en.png" alt="First slide">
+                    </div>
+                    <div class="item">
+                        <img class="d-block img-fluid" src="images/bimser_logo_en.png" alt="Second slide">
+                    </div>
+                    <div class="item">
+                        <img class="d-block img-fluid" src="images/bimser_logo_en.png" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="row" style="padding-top:20px">
+
+            <div class="col-md-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <h3 class="panel-title">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                        ETKİNLİKLER
+                    </h3>
+
+
+                    <div class="panel-body">
+                        <ul class="media-list">
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <div class="panel panel-danger text-center date ">
+                                            <div class="panel-heading month">
+                                                <span class="panel-title strong">
+                                                    MART
+                                                </span>
+
+                                            </div>
+                                            <div class="panel-body day text-danger ">
+                                                23
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        Media heading
+                                    </h4>
+                                    <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufa</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="btn btn-info  btn-block">Tüm Duyurular</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="panel panel info">
+                    <div class="panel panel-info" style="height:249px">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <span class="glyphicon glyphicon-bullhorn"></span>
+                                DUYURULAR
+                            </h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img class="media-object img-rounded " width="55px" height="" src="images/bimser_logo_en.png" />""
+                                        </a>
+
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">
+                                            zdxfghjgfdssdfghjmhgfdsdfg
+
+                                        </h4>
+                                        <p>
+                                            Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufa
+                                        </p>
+
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <a href="#" class="btn btn-info  btn-block" style="margin-top:30px">zDuyurular</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Panel heading without title</div>
+                    <h3 class="panel-title">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                        ETKİNLİKLER
+                    </h3>
+
+
+                    <div class="panel-body">
+                        <ul class="media-list">
+                            <li class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <div class="panel panel-danger text-center date ">
+                                            <div class="panel-heading month">
+                                                <span class="panel-title strong">
+                                                    MART
+                                                </span>
+
+                                            </div>
+                                            <div class="panel-body day text-danger ">
+                                                23
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        Media heading
+                                    </h4>
+                                    <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufa</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <a href="#" class="btn btn-info  btn-block">Tüm Duyurular</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="row well">
+                <div class="container">
+                    <div class="col-md-9 text-info ">
+                        <strong> Copyright &copy; Özge Külekci  </strong>
+                    </div>
+
+                    <div class="col-md-3" style="float:right">
+                        <div class="row">
+                            <!--<ul class="social-network social-circle" style="list-style-type: none">-->
+                            <div class="col-md-3">
+                                <a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                            <!--</ul>-->
+                        </div>
+                    </div>
+
+                    <div id="testCycle" style="width:50px;height:25px;border:1px solid black;">cycle</div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--<script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>-->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var cycleIndex = 0;
+            var btnTest = $("#testCycle");
+            btnTest.on("click", function () {
+                cycleIndex += 1;
+                if (cycleIndex >= 3) {
+                    cycleIndex = 0;
+                }
+                var slider = $("#carouselExampleIndicators");
+                slider.carousel(cycleIndex);
+            });
+
+            console.log("ready!");
+            var test = $("#carouselExampleIndicators");
+            console.log(test);
+            test.carousel({
+                ride: false,
+                interval: false
+            });
+        });
+    </script>
+</body>
+</html>

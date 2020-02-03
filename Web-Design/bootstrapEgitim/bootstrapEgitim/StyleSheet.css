@@ -1,0 +1,13 @@
+﻿
+
+.logo-yani-yazi{
+    float:left !important; /*important önceki stil özelliklerini yok say burda belirttiğimii mutlaka uygula demek*/
+    font-size:18px;
+    font-weight:100;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:50px;
+    margin-top:6px;
+    
+}
+

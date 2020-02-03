@@ -1,0 +1,31 @@
+C:\Users\user\Documents\Visual Studio 2013\Projects\c#\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\c#\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\c#\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\c#\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\c#\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\c#\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\c#\bootstrapEgitim\bootstrapEgitim\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\c#\bootstrapEgitim\bootstrapEgitim\bin\Newtonsoft.Json.xml
+C:\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.dll.config
+C:\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.dll
+C:\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.pdb
+C:\bootstrapEgitim\bootstrapEgitim\bin\Newtonsoft.Json.xml
+C:\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.csprojResolveAssemblyReference.cache
+C:\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.dll
+C:\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.pdb
+E:\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.dll.config
+E:\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.dll
+E:\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.pdb
+E:\bootstrapEgitim\bootstrapEgitim\bin\Newtonsoft.Json.xml
+E:\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.csprojResolveAssemblyReference.cache
+E:\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.dll
+E:\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.pdb
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.dll.config
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.dll
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\bin\bootstrapEgitim.pdb
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\bin\Newtonsoft.Json.xml
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.csprojAssemblyReference.cache
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.csproj.CoreCompileInputs.cache
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.csproj.CopyComplete
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.dll
+D:\STAJPROE\bootstrapEgitim\bootstrapEgitim\obj\Debug\bootstrapEgitim.pdb

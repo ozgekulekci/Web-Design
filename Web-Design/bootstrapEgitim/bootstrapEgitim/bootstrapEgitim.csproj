@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3229B47C-BDC4-4F03-ABA1-2C6634D28A4E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bootstrapEgitim</RootNamespace>
+    <AssemblyName>bootstrapEgitim</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="arsiv\16806638_1202313623178907_4820018945997649621_n.jpg" />
+    <Content Include="arsiv\18222368_1275026535907615_7697633198197779004_n.jpg" />
+    <Content Include="arsiv\Ak Koyun - Ahmed Adnan Saygun.mp4" />
+    <Content Include="arsiv\tanıtım.mp4" />
+    <Content Include="bin\bootstrapEgitim.dll" />
+    <Content Include="bin\bootstrapEgitim.pdb" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="FONT\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="FONT\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="FONT\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="FONT\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="FONT\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="FONT\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\core.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\list.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\path.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="FONT\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="FONT\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="bin\bootstrapEgitim.dll.config" />
+    <Content Include="lightbox2-master\dist\css\lightbox.css" />
+    <Content Include="lightbox2-master\dist\css\lightbox.min.css" />
+    <Content Include="lightbox2-master\dist\images\close.png" />
+    <Content Include="lightbox2-master\dist\images\loading.gif" />
+    <Content Include="lightbox2-master\dist\images\next.png" />
+    <Content Include="lightbox2-master\dist\images\prev.png" />
+    <Content Include="lightbox2-master\dist\js\lightbox-plus-jquery.js" />
+    <Content Include="lightbox2-master\dist\js\lightbox-plus-jquery.min.js" />
+    <Content Include="lightbox2-master\dist\js\lightbox.js" />
+    <Content Include="lightbox2-master\dist\js\lightbox.min.js" />
+    <Content Include="lightbox2-master\examples\index.html" />
+    <Content Include="lightbox2-master\Gruntfile.js" />
+    <Content Include="lightbox2-master\src\css\lightbox.css" />
+    <Content Include="lightbox2-master\src\images\close.png" />
+    <Content Include="lightbox2-master\src\images\loading.gif" />
+    <Content Include="lightbox2-master\src\images\next.png" />
+    <Content Include="lightbox2-master\src\images\prev.png" />
+    <Content Include="lightbox2-master\src\js\lightbox.js" />
+    <Content Include="magic-master\.gitignore" />
+    <Content Include="magic-master\bower.json" />
+    <Content Include="magic-master\css\base.css" />
+    <Content Include="magic-master\css\bling\puffIn.css" />
+    <Content Include="magic-master\css\bling\puffOut.css" />
+    <Content Include="magic-master\css\bling\vanishIn.css" />
+    <Content Include="magic-master\css\bling\vanishOut.css" />
+    <Content Include="magic-master\css\boing\boingInUp.css" />
+    <Content Include="magic-master\css\boing\boingOutDown.css" />
+    <Content Include="magic-master\css\bomb\bombLeftOut.css" />
+    <Content Include="magic-master\css\bomb\bombRightOut.css" />
+    <Content Include="magic-master\css\magic_effects\magic.css" />
+    <Content Include="magic-master\css\magic_effects\swap.css" />
+    <Content Include="magic-master\css\magic_effects\twisterInDown.css" />
+    <Content Include="magic-master\css\magic_effects\twisterInUp.css" />
+    <Content Include="magic-master\css\math\foolishIn.css" />
+    <Content Include="magic-master\css\math\foolishOut.css" />
+    <Content Include="magic-master\css\math\holeOut.css" />
+    <Content Include="magic-master\css\math\swashIn.css" />
+    <Content Include="magic-master\css\math\swashOut.css" />
+    <Content Include="magic-master\css\on_the_space\spaceInDown.css" />
+    <Content Include="magic-master\css\on_the_space\spaceInLeft.css" />
+    <Content Include="magic-master\css\on_the_space\spaceInRight.css" />
+    <Content Include="magic-master\css\on_the_space\spaceInUp.css" />
+    <Content Include="magic-master\css\on_the_space\spaceOutDown.css" />
+    <Content Include="magic-master\css\on_the_space\spaceOutLeft.css" />
+    <Content Include="magic-master\css\on_the_space\spaceOutRight.css" />
+    <Content Include="magic-master\css\on_the_space\spaceOutUp.css" />
+    <Content Include="magic-master\css\perspective\perspectiveDown.css" />
+    <Content Include="magic-master\css\perspective\perspectiveDownReturn.css" />
+    <Content Include="magic-master\css\perspective\perspectiveLeft.css" />
+    <Content Include="magic-master\css\perspective\perspectiveLeftReturn.css" />
+    <Content Include="magic-master\css\perspective\perspectiveRight.css" />
+    <Content Include="magic-master\css\perspective\perspectiveRightReturn.css" />
+    <Content Include="magic-master\css\perspective\perspectiveUp.css" />
+    <Content Include="magic-master\css\perspective\perspectiveUpReturn.css" />
+    <Content Include="magic-master\css\rotate\rotateDown.css" />
+    <Content Include="magic-master\css\rotate\rotateLeft.css" />
+    <Content Include="magic-master\css\rotate\rotateRight.css" />
+    <Content Include="magic-master\css\rotate\rotateUp.css" />
+    <Content Include="magic-master\css\slide\slideDown.css" />
+    <Content Include="magic-master\css\slide\slideDownReturn.css" />
+    <Content Include="magic-master\css\slide\slideLeft.css" />
+    <Content Include="magic-master\css\slide\slideLeftReturn.css" />
+    <Content Include="magic-master\css\slide\slideRight.css" />
+    <Content Include="magic-master\css\slide\slideRightReturn.css" />
+    <Content Include="magic-master\css\slide\slideUp.css" />
+    <Content Include="magic-master\css\slide\slideUpReturn.css" />
+    <Content Include="magic-master\css\static_effects\openDownLeft.css" />
+    <Content Include="magic-master\css\static_effects\openDownLeftReturn.css" />
+    <Content Include="magic-master\css\static_effects\openDownRight.css" />
+    <Content Include="magic-master\css\static_effects\openDownRightReturn.css" />
+    <Content Include="magic-master\css\static_effects\openUpLeft.css" />
+    <Content Include="magic-master\css\static_effects\openUpLeftReturn.css" />
+    <Content Include="magic-master\css\static_effects\openUpRight.css" />
+    <Content Include="magic-master\css\static_effects\openUpRightReturn.css" />
+    <Content Include="magic-master\css\static_effects_out\openDownLeftOut.css" />
+    <Content Include="magic-master\css\static_effects_out\openDownRightOut.css" />
+    <Content Include="magic-master\css\static_effects_out\openUpLeftOut.css" />
+    <Content Include="magic-master\css\static_effects_out\openUpRightOut.css" />
+    <Content Include="magic-master\css\tin\tinDownIn.css" />
+    <Content Include="magic-master\css\tin\tinDownOut.css" />
+    <Content Include="magic-master\css\tin\tinLeftIn.css" />
+    <Content Include="magic-master\css\tin\tinLeftOut.css" />
+    <Content Include="magic-master\css\tin\tinRightIn.css" />
+    <Content Include="magic-master\css\tin\tinRightOut.css" />
+    <Content Include="magic-master\css\tin\tinUpIn.css" />
+    <Content Include="magic-master\css\tin\tinUpOut.css" />
+    <Content Include="magic-master\gulpfile.js" />
+    <Content Include="magic-master\magic.css" />
+    <Content Include="magic-master\magic.min.css" />
+    <Content Include="magic-master\package.json" />
+    <Content Include="magic-master\README.md" />
+    <Content Include="obj\Debug\bootstrapEgitim.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="lightbox2-master\.editorconfig" />
+    <Content Include="lightbox2-master\.gitignore" />
+    <Content Include="lightbox2-master\.jscsrc" />
+    <Content Include="lightbox2-master\.jshintrc" />
+    <Content Include="lightbox2-master\bower.json" />
+    <Content Include="lightbox2-master\CONTRIBUTING.md" />
+    <Content Include="lightbox2-master\DEPLOY.md" />
+    <Content Include="lightbox2-master\dist\js\lightbox-plus-jquery.min.map" />
+    <Content Include="lightbox2-master\dist\js\lightbox.min.map" />
+    <Content Include="lightbox2-master\LICENSE" />
+    <Content Include="lightbox2-master\package.json" />
+    <Content Include="lightbox2-master\README.md" />
+    <Content Include="lightbox2-master\ROADMAP.md" />
+    <None Include="Scripts\jquery-1.12.4.intellisense.js" />
+    <Content Include="Scripts\jquery-1.12.4.js" />
+    <Content Include="Scripts\jquery-1.12.4.min.js" />
+    <Content Include="Scripts\jquery-1.12.4.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FONT\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="FONT\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="FONT\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="FONT\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="hakkimda.css" />
+    <Content Include="hakkimda.html" />
+    <Content Include="images\bimser_logo_en.png" />
+    <Content Include="images\fon.jpg" />
+    <Content Include="images\fon1.jpg" />
+    <Content Include="images\fon2.jpg" />
+    <Content Include="images\kod.jpeg" />
+    <Content Include="index.html" />
+    <Content Include="nerveslider\nerveslider.css" />
+    <Content Include="nerveslider\nerveslider.min.js" />
+    <Content Include="obj\Debug\bootstrapEgitim.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\bootstrapEgitim.dll" />
+    <Content Include="obj\Debug\bootstrapEgitim.pdb" />
+    <Content Include="OzgeBlogCss.css" />
+    <Content Include="OzgeBlogIndex.html" />
+    <Content Include="OzgeBlogJs.js" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
+    <Content Include="StyleSheet.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57260</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57260/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
